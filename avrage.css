@@ -1,44 +1,51 @@
 body{
-  background-color: #0B2132;
+  background-color: #FBF5DD;
 }
 .main-heder{
-  font-family: "Pattaya", serif;
+  font-family: "Moo Lah Lah", serif;
   font-weight: 400;
   font-style: normal;
-  color: #c3d7f4;
+  color: #FF731D;
   text-align: center;
   font-size: 70px;
 }
 .container{
   margin-top: 50px;
   margin: 40px 40px;
-  background-color: #c3d7f4;
+  background-color: #16404D;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
 }
 .sc-heder{
-  font-family: "Pattaya", serif;
+  font-family: "Rubik Bubbles", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
-  color: #0B2132;
+  color: #FF731D;
 }
 .module{
+  border: #FBF5DD solid;
   margin:30px 50px;
-  background-color: #0B2132;
-  color: #c3d7f4;
+  background-color:#2B4450 ;
+  color: #FBF5DD;
   padding:20px 10px;
   border-radius: 10px;
   
 }
 .module-name{
+  font-family: "Rubik Bubbles", serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 22px;
   font-weight: bold;
   padding: 0px 20px;
   margin: 10px 20px;
 }
 .titre{
+  font-family: "Rubik Bubbles", serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 20px;
   font-weight: bold;
   padding: 15px 20px;
@@ -54,6 +61,7 @@ body{
   width: 55%;
 }
 .anonce{
+  color: #FBF5DD;
   font-size: 25px;
   font-weight: bold;
   padding: 15px 20px;
@@ -67,24 +75,25 @@ body{
   border-radius: 20px;
   font-size: 20px;
   font-weight: bold;
-  color: rgb(10, 102, 194);
-  border-color: rgb(10, 102, 194);
+  color: #FF731D;
+  border-color: #FF731D;
   background-color: white;
   margin-bottom: 30px;
   transition: border-width 0.15s, background-color 0.15s;
 }
 .sub-buton:hover{
   color: white;
-  background-color: rgb(8, 86, 181);
+  background-color: #FF731D;
 }
 .sub-buton:active{
   opacity: 0.7;
 }
 
 .section{
+  border: #FBF5DD solid;
   margin: 20px 80px;
-  background-color: #0B2132;
-  color: #c3d7f4;
+  background-color: #2B4450;
+  color: #FBF5DD;
   padding: 20px 10px;
   border-radius: 10px;
 }
@@ -92,24 +101,38 @@ body{
   opacity: 0.9;
 }
 .total{
+  color: #FF731D;
   font-size: 30px;
   font-weight: bold;
   padding: 15px 20px;
   margin: 10px;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
 }
 .moy{
   font-size: 40px;
 }
 .worning{
   margin-top: 3px;
-  margin-left: 2px;
-  padding-left: 5px;
   font-weight: 1000;
   color: rgb(255, 68, 0);
+  font-size: 8px;
 }
 .condition{
   font-size: 30px;
 }
+.remark{
+  font-family: "Rubik Bubbles", serif;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 10px;
+  padding: 10px 0px;
+  margin-top: 5px;
+  padding-top: 5px;
+  color: #FFCA03;
+  font-size: 30px;
+  text-align: center;
+}
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
@@ -118,11 +141,60 @@ body{
   'opsz' 48
 }
 .material-symbols-outlined {
-  size: 1000px;
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
   'GRAD' 0,
   'opsz' 48
 }
-
+.id{
+  display: block; margin: 0 auto;
+  margin-bottom: 50px;
+  border-width: 1px ;
+  border: solid;
+  padding: 18px 15px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FF731D;
+  border-color: #FF731D;
+  background-color: white;
+  margin-bottom: 30px;
+  transition: border-width 0.15s, background-color 0.15s;
+}
+.id:hover{
+  color: white;
+  background-color: #FF731D;
+}
+.id:active{
+  opacity: 0.7;
+}
+.sub-cont{
+  margin-top: 50px;
+  margin: 40px 40px;
+  background-color: #16404D;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color:#FFCA03;
+  font-size: 20px;
+  line-height: 3;
+}
+.here{
+  color: #FF731D;
+}
+.dscrbt{
+  text-align: left;
+  border: #FBF5DD solid;
+  margin: 20px 50px;
+  background-color: #2B4450;
+  color: #FBF5DD;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+.feed{
+  font-family: "Rubik Bubbles", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
